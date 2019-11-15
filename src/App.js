@@ -6,7 +6,7 @@ import CounterMapDispatchObj from "./component/CounterApp/CounterMapDispatchObj"
 export class App extends Component {
   render() {
     return (
-      <div>
+      <div style={{ display: "flex" }}>
         <Counter />
         <CounterMapDispatchFn />
         <CounterMapDispatchObj />
